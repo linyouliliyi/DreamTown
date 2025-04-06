@@ -1,0 +1,31 @@
+# Unity 默认忽略规则
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Pp]ackages/
+/[Aa]ssets/AssetStoreTools*
+/[Pp]rojectSettings/EditorBuildSettings.asset
+
+# 自动生成的文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+
+# 大型二进制文件（建议用 Git LFS 管理）
+*.asset
+*.prefab
+*.mat
+*.fbx
+*.obj
+*.tga
+*.png
+*.jpg
+*.bmp
+*.wav
+*.mp3
