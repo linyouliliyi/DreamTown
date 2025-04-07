@@ -1,0 +1,746 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.48f1c1 (06fbdfbf16e3) revision 457695'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'zh' Physical Memory: 32621 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.48f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unityeditor/DreamTown
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56792
+Successfully changed project path to: D:/unityeditor/DreamTown
+D:/unityeditor/DreamTown
+Using Asset Import Pipeline V2.
+Player connection [32368] Host "[IP] 192.168.0.100 [Port] 73 [Flags] 2 [Guid] 875944790 [EditorId] 875944790 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-42BT1D6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32368] Host "[IP] 192.168.0.100 [Port] 73 [Flags] 2 [Guid] 875944790 [EditorId] 875944790 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-42BT1D6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 26.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.48f1c1 (06fbdfbf16e3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.48f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unityeditor/DreamTown/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   
+    VRAM:     7957 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.48f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000936 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.364 seconds
+Domain Reload Profiling:
+	ReloadAssembly (364ms)
+		BeginReloadAssembly (39ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (281ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (108ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (51ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Domain Reload Profiling:
+	ReloadAssembly (656ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2019 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2455.
+Total: 2.117700 ms (FindLiveObjects: 0.088100 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.891200 ms  DeleteObjects: 0.103000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/confirm.png
+  artifactKey: Guid(c65387bfe4545f246a2df8ffb2bedad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/confirm.png using Guid(c65387bfe4545f246a2df8ffb2bedad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f918775d87ca926bfebe6eb34daa00') in 0.076494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/icon-beautiful.png
+  artifactKey: Guid(f481f57182abd7c4b8bb9f869266a4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/icon-beautiful.png using Guid(f481f57182abd7c4b8bb9f869266a4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdb434b2a050b3864285a6be6f76eea') in 0.005239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/bg-before.png
+  artifactKey: Guid(33c02b03aad1b944fab01e9eec79cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/bg-before.png using Guid(33c02b03aad1b944fab01e9eec79cc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eee1b092e82de770dd25442ff3cf5f8') in 0.007169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/btn-re.png
+  artifactKey: Guid(51a0444895b93fa41822f66d19f99069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/btn-re.png using Guid(51a0444895b93fa41822f66d19f99069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdde48b84a5ffa4d4f22345c57e6c58') in 0.009470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/bg-after.png
+  artifactKey: Guid(658dae9ab200ff74f86a1acc88bac06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/bg-after.png using Guid(658dae9ab200ff74f86a1acc88bac06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0db7ceca0845b9b97b5626e5e420eec') in 0.006858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.575124 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/bg-after.png
+  artifactKey: Guid(658dae9ab200ff74f86a1acc88bac06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/bg-after.png using Guid(658dae9ab200ff74f86a1acc88bac06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8f7b92891e004153b491a407a14b55') in 0.013018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.486277 seconds.
+  path: Assets/Scenes/H4.unity
+  artifactKey: Guid(e120669a8632c7b418fac258169f3d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/H4.unity using Guid(e120669a8632c7b418fac258169f3d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcd2b1d5fc57eabd4d40600a18a19c4') in 0.001667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 203.590103 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/Property 1=Frame 12.png
+  artifactKey: Guid(a8c23a2d30bac7e44b249bc60717ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/Property 1=Frame 12.png using Guid(a8c23a2d30bac7e44b249bc60717ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a144229acdc05ab2bcdeb6357990a973') in 0.020563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/Property 1=返回2.png
+  artifactKey: Guid(6efb8fb55cffc2540b51936e1e298c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/Property 1=返回2.png using Guid(6efb8fb55cffc2540b51936e1e298c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc62278589885208cac9d49f24edd38') in 0.007780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.293352 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/confirm.png
+  artifactKey: Guid(c65387bfe4545f246a2df8ffb2bedad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/confirm.png using Guid(c65387bfe4545f246a2df8ffb2bedad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390f643e37ab937693243e7692d84a83') in 0.023920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.449812 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/Property 1=Frame 12.png
+  artifactKey: Guid(a8c23a2d30bac7e44b249bc60717ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/Property 1=Frame 12.png using Guid(a8c23a2d30bac7e44b249bc60717ca43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bc47c90dd05e0b965568cf3ffc3f3d') in 0.007650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 321.571367 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/Frame 17.png
+  artifactKey: Guid(3991274cf9c934042800bc82501f1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/Frame 17.png using Guid(3991274cf9c934042800bc82501f1e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fde579517cfd66a80dd0f91338996a') in 0.007663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/创建角色/Frame 19.png
+  artifactKey: Guid(89c09f25b5622154a838c8c0518e1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/创建角色/Frame 19.png using Guid(89c09f25b5622154a838c8c0518e1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0debbb5a55b1e6fe2a7bd8236ffe2ba') in 0.006430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 255.881923 seconds.
+  path: Assets/Scenes/H5.unity
+  artifactKey: Guid(9b108e23e680dd04f9662bde8287e2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/H5.unity using Guid(9b108e23e680dd04f9662bde8287e2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56b3d3106ebba828eed979ee0a8b8c3') in 0.002008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.819957 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/定义角色/bg-define.png
+  artifactKey: Guid(595aa994bddd1c746836bf6ccd21dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/定义角色/bg-define.png using Guid(595aa994bddd1c746836bf6ccd21dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac6a9e079bf3db1646204ed1d13fa06') in 0.014665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1187.444413 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/家中/imageinput_小女孩在屋子里站着，可爱动作。身体轻微摆动_2025-03-31 19_20_36 1.png
+  artifactKey: Guid(e5e53cfd9bb47d74faabdc4d57518ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/家中/imageinput_小女孩在屋子里站着，可爱动作。身体轻微摆动_2025-03-31 19_20_36 1.png using Guid(e5e53cfd9bb47d74faabdc4d57518ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc14d73975f47b7bb8b8c43a48d38fdd') in 0.013106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.182678 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/低保真（互动反馈）手帐.png
+  artifactKey: Guid(830500e5386647947afeb0e44aa0eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/低保真（互动反馈）手帐.png using Guid(830500e5386647947afeb0e44aa0eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687eee2b0fd55b0820ccd3add2f77f66') in 0.009587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377383 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/bg-角色家园.png
+  artifactKey: Guid(3912a5681dae28e4aac64cb5c5af5240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/bg-角色家园.png using Guid(3912a5681dae28e4aac64cb5c5af5240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5544781d4946ce8b446ea72d9d81491d') in 0.010323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Title.png
+  artifactKey: Guid(d66c341f29a234245b03d2c254fd74ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Title.png using Guid(d66c341f29a234245b03d2c254fd74ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db597d4271508c687fdc48bdf8e7a1bc') in 0.005723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/book.png
+  artifactKey: Guid(23e275d0602613a4da10c679223c0b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/book.png using Guid(23e275d0602613a4da10c679223c0b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9364c66e7d8c4b50e60d647b1a4bc888') in 0.007722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Group 1744.png
+  artifactKey: Guid(caa89f00583962f429676a8db9d6da44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Group 1744.png using Guid(caa89f00583962f429676a8db9d6da44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28a9f4496c8b2a68e3d3166482d89bd') in 0.009370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Frame 15.png
+  artifactKey: Guid(81636da6713164e42836d10e60c2089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Frame 15.png using Guid(81636da6713164e42836d10e60c2089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7acaa25d6a8e3a8e356407f56404095') in 0.006876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Property 1=Ellipse 1194.png
+  artifactKey: Guid(0ab902ea9c1f72e448d1adc120a50270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Property 1=Ellipse 1194.png using Guid(0ab902ea9c1f72e448d1adc120a50270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbcf2c2491df77ea97a8bb25e0fc648') in 0.008098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/map.png
+  artifactKey: Guid(1c7fc2b4e311c9c40a5a29923efc8b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/map.png using Guid(1c7fc2b4e311c9c40a5a29923efc8b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a436597622cf9d934bd3c1591d7ff493') in 0.006764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Group 1742.png
+  artifactKey: Guid(40ee2673c09cfe445a9021358ad28cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Group 1742.png using Guid(40ee2673c09cfe445a9021358ad28cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ba024ba1a8221cb801a5bbbea98560') in 0.008294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Property 1=冒险2.png
+  artifactKey: Guid(71b37de38795aca43b376088c536f00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Property 1=冒险2.png using Guid(71b37de38795aca43b376088c536f00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a614072cb8c511b5d73ef7229f0f9998') in 0.005371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Group 1743.png
+  artifactKey: Guid(8119ec28d602bef47a1123b2e19dba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Group 1743.png using Guid(8119ec28d602bef47a1123b2e19dba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54fab793cbce92bf5272704ba7e5b08') in 0.008432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/角色家园/Property 1=Frame 23.png
+  artifactKey: Guid(d00339f5003600f4997565b23be7ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/角色家园/Property 1=Frame 23.png using Guid(d00339f5003600f4997565b23be7ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed9e93ccfcbbf16f319bbef53f6e7d0') in 0.006091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.812378 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Frame 5.png
+  artifactKey: Guid(6fe8a13c6fa143648825683250a0f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Frame 5.png using Guid(6fe8a13c6fa143648825683250a0f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab787f87d6b38705b703b1c65bd62323') in 0.007237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Frame 11.png
+  artifactKey: Guid(98e3693b1edde0f42807cd8f211ea0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Frame 11.png using Guid(98e3693b1edde0f42807cd8f211ea0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f0db3d27eea0dbbfd4044d8526eba8') in 0.006050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/New.png
+  artifactKey: Guid(922693d23cacad349945c2328ef54c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/New.png using Guid(922693d23cacad349945c2328ef54c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d3998754e7c1203c23c15f303c4e03') in 0.005309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Frame 8.png
+  artifactKey: Guid(ca72757408abb194c9777f83cb1f984a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Frame 8.png using Guid(ca72757408abb194c9777f83cb1f984a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97835ea398fe1f9b967693ad72962223') in 0.006700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Frame 9.png
+  artifactKey: Guid(abed947b6e6db7f42a0d0752e8c37f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Frame 9.png using Guid(abed947b6e6db7f42a0d0752e8c37f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53aa398a475c6ee5d86405dab7c74fe5') in 0.006211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Group 1672.png
+  artifactKey: Guid(4c41ea79652e19f41b436f4603db1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Group 1672.png using Guid(4c41ea79652e19f41b436f4603db1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf52763a1c131b91b7f5bf8ea37dc7e1') in 0.007196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Frame 6.png
+  artifactKey: Guid(a5fa7c4a31f805a42a3768a1dd732156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Frame 6.png using Guid(a5fa7c4a31f805a42a3768a1dd732156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0527f1d92c4b4061c07a73a86f2a6f') in 0.005434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Frame 7.png
+  artifactKey: Guid(f29d37c6bc0e1ad428dc4c97911d5a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Frame 7.png using Guid(f29d37c6bc0e1ad428dc4c97911d5a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ef283abf3ced4ba1ab92972a0ba2d1') in 0.005765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Group 1676.png
+  artifactKey: Guid(def74749a6169eb44be2aacb70918ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Group 1676.png using Guid(def74749a6169eb44be2aacb70918ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0d1c4cfa2ddd4ae6fd968e3714899a') in 0.005688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Group 1746.png
+  artifactKey: Guid(94b2de79561cd204ea9ee6878f894c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Group 1746.png using Guid(94b2de79561cd204ea9ee6878f894c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cbeabec2f3505e5683cfd13ecf0a26') in 0.007105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/手账/Frame 10.png
+  artifactKey: Guid(af2a25aa0af23694ea18044260703d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/手账/Frame 10.png using Guid(af2a25aa0af23694ea18044260703d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4c224aa9393e541a663d6d84c80c50') in 0.005449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.603406 seconds.
+  path: Assets/Scenes/H6.unity
+  artifactKey: Guid(409c52e73ae7c304c97b642a1e957ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/H6.unity using Guid(409c52e73ae7c304c97b642a1e957ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a7813806cef2664c7b324acb8159f4') in 0.001753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 307.392768 seconds.
+  path: Assets/DreamTown游戏素材/场景素材/H6-角色家园/bg-角色家园.png
+  artifactKey: Guid(3912a5681dae28e4aac64cb5c5af5240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DreamTown游戏素材/场景素材/H6-角色家园/bg-角色家园.png using Guid(3912a5681dae28e4aac64cb5c5af5240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9486bb7faa2892352eae5e629f962f5') in 0.012444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.619991 seconds.
+  path: Assets/Scenes/H7.unity
+  artifactKey: Guid(d4a41472b80d23a4590c4d1ea7cde8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/H7.unity using Guid(d4a41472b80d23a4590c4d1ea7cde8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7b29edd18d3f9dc76a2cc05035d9a7') in 0.001581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.167391 seconds.
+  path: Assets/Scenes/H8.unity
+  artifactKey: Guid(80d1267db0da61847968323c26c6f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/H8.unity using Guid(80d1267db0da61847968323c26c6f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0c59efab23d46c45bb45c55b695ae6') in 0.001596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1723.536662 seconds.
+  path: Assets/Scripts/Cusor/CusorManager.cs
+  artifactKey: Guid(469cf7971ba06694eb840e9f3e65989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cusor/CusorManager.cs using Guid(469cf7971ba06694eb840e9f3e65989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9335630086bfb287995540d80ffd93b0') in 0.009578 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (613ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.5 MB.
+System memory in use after: 97.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 1.963600 ms (FindLiveObjects: 0.094200 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.775700 ms  DeleteObjects: 0.063100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001136 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (625ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (507ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2515.
+Total: 2.133100 ms (FindLiveObjects: 0.084000 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.950900 ms  DeleteObjects: 0.066100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.909124 seconds.
+  path: Assets/Scripts/Cusor/CusorManager.cs
+  artifactKey: Guid(469cf7971ba06694eb840e9f3e65989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cusor/CusorManager.cs using Guid(469cf7971ba06694eb840e9f3e65989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7091d5cdc36b033155e0b226447f5da6') in 0.004250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.504024 seconds.
+  path: Assets/Scripts/Cusor/CursorManager.cs
+  artifactKey: Guid(469cf7971ba06694eb840e9f3e65989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cusor/CursorManager.cs using Guid(469cf7971ba06694eb840e9f3e65989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e49f8c91eab81023be8d246710c973') in 0.001842 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.626 seconds
+Domain Reload Profiling:
+	ReloadAssembly (626ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (506ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 2.132100 ms (FindLiveObjects: 0.093200 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.940000 ms  DeleteObjects: 0.066200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (490ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 1.979100 ms (FindLiveObjects: 0.089300 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.792400 ms  DeleteObjects: 0.063200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 1.958900 ms (FindLiveObjects: 0.090700 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.775900 ms  DeleteObjects: 0.062600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (603ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2527.
+Total: 2.009700 ms (FindLiveObjects: 0.089600 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.827700 ms  DeleteObjects: 0.060700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
