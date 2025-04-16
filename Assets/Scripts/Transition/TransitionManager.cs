@@ -29,12 +29,12 @@ public class TransitionManager : Singleton<TransitionManager>
     if( from != string.Empty)
     {
       EventHandler.CallBeforeSceneUnloadFadeOutEvent();
-      yield return SceneManager.UnloadSceneAsync(from);
+      yield return UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(from);
     }
-    yield return SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive);
+    yield return UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(to, LoadSceneMode.Additive);
 
-    Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
-    SceneManager.SetActiveScene(newScene);
+    Scene newScene = UnityEngine.SceneManagement.SceneManager.GetSceneAt(UnityEngine.SceneManagement.SceneManager.sceneCount - 1);
+    UnityEngine.SceneManagement.SceneManager.SetActiveScene(newScene);
 
     EventHandler.CallAfterSceneUnloadFadeInEvent();
 
@@ -59,6 +59,37 @@ public class TransitionManager : Singleton<TransitionManager>
 
       isFade = false;
     }
-   
+
+    public void LoadScene(string sceneName)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadSceneAsync(string sceneName)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(sceneName);
+    }
+
+    public void UnloadSceneAsync(string sceneName)
+    {
+        UnityEngine.SceneManagement.SceneManager.UnloadSceneAsync(sceneName);
+    }
+
+    public void SetActiveScene(string sceneName)
+    {
+        UnityEngine.SceneManagement.SceneManager.SetActiveScene(
+            UnityEngine.SceneManagement.SceneManager.GetSceneByName(sceneName)
+        );
+    }
+
+    public int GetSceneCount()
+    {
+        return UnityEngine.SceneManagement.SceneManager.sceneCount;
+    }
+
+    public UnityEngine.SceneManagement.Scene GetSceneAt(int index)
+    {
+        return UnityEngine.SceneManagement.SceneManager.GetSceneAt(index);
+    }
 }
 
