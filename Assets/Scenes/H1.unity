@@ -809,6 +809,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1252688626}
   - component: {fileID: 1252688627}
+  - component: {fileID: 1252688628}
+  - component: {fileID: 1252688629}
   m_Layer: 0
   m_Name: Teleport to H2
   m_TagString: Untagged
@@ -844,6 +846,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneFrom: H1
   SceneToGo: H2
+--- !u!114 &1252688628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252688625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21ea431ed4c86ec45aa3ef517631a69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1252688629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252688625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3f50b3f1891a4468fbd83c59fd9e6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1703444797
 GameObject:
   m_ObjectHideFlags: 0

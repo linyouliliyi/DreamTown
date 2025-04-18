@@ -86,6 +86,12 @@ public class CharacterGroupUI : MonoBehaviour
         
         // 初始状态
         SetSelected(false);
+
+        // 为选择按钮添加音效
+        if (selectButton != null)
+        {
+            selectButton.AddSound();
+        }
     }
 
     private IEnumerator LoadImage(string path)

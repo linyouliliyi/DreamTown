@@ -26,6 +26,12 @@ public class CharacterShowcaseUI : MonoBehaviour
         
         // 加载角色列表
         RefreshCharacterList();
+
+        // 为创建角色按钮添加音效
+        if (createCharacterButton != null)
+        {
+            createCharacterButton.AddSound();
+        }
     }
 
     private void InitializeUI()
