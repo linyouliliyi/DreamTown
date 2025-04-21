@@ -6,7 +6,6 @@
 /[Bb]uilds/
 /[Pp]ackages/
 /[Aa]ssets/AssetStoreTools*
-/[Pp]rojectSettings/EditorBuildSettings.asset
 
 # 自动生成的文件
 *.csproj
@@ -24,8 +23,17 @@
 *.fbx
 *.obj
 *.tga
+
+# 图片文件（除了Resources文件夹中的）
 *.png
 *.jpg
 *.bmp
+!Assets/Resources/**/*.png
+!Assets/Resources/**/*.jpg
+!Assets/Resources/**/*.bmp
+
+# 音频文件（除了Resources文件夹中的）
 *.wav
 *.mp3
+!Assets/Resources/**/*.wav
+!Assets/Resources/**/*.mp3
